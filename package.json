@@ -1,0 +1,27 @@
+{
+  "name": "squarespace",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/js": "^6.3.95",
+    "mdi-vue": "^3.0.8",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "prettier": "2.4.1",
+    "sass": "^1.43.3",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vite-plugin-windicss": "^1.4.12",
+    "vue-tsc": "^0.3.0",
+    "windicss": "^3.1.9"
+  }
+}
